@@ -1,5 +1,6 @@
 html,
 body {
+  scroll-behavior: smooth;
   margin: 0;
   height: 100%
 }
@@ -12,15 +13,22 @@ p {
 
 header {
   position: fixed;
-  top: 10px;
-  left: 10px;
+  background-color: white;
 }
-
+.head{
+  padding: 10px;
+}
+a{
+  text-decoration: none;
+  color: black;
+}
 section {
   text-align: center;
-  color: #EFEFEF;
+  color: black;
 }
-
+.pad{
+  padding: 100px;
+}
 .full-screen {
   height: 100%; /* makes panels the entire window height */
 }
@@ -29,12 +37,12 @@ section {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #3883d8;
+  background-color: #aa96da;
 }
 
 .red {
-	background-color: #cf3535;
+	background-color: #fcbad3;
 }
 .orange {
-	background-color: #ea6300;
+	background-color: #ffffd2;
 }
