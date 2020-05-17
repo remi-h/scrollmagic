@@ -18,3 +18,10 @@ var scene2 = new ScrollMagic.Scene({
 })
 .setPin("#pinned-element2") // the element we want to pin
 .addTo(controller);
+
+var scene3 = new ScrollMagic.Scene({
+  triggerElement: "#pinned-trigger3", // point of execution
+  duration: 400 // pin the element for a total of 400px
+})
+.setPin("#pinned-element3") // the element we want to pin
+.addTo(controller);
