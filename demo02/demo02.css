@@ -1,0 +1,19 @@
+html.sr .load-hidden {
+    visibility: hidden;
+}
+*{
+  margin: 0;
+  padding: 0;
+}
+.wrap01{
+  margin: 250px;
+}
+body{
+  background-color: #a8d8ea;
+}
+html.sr .load-hidden {
+    visibility: hidden;
+}
+ul{
+  list-style: none;
+}
